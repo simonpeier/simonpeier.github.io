@@ -1,6 +1,3 @@
-# Simon Peier
-My name is Simon Peier and I am a swiss software engineer in apprentice. I am currently working at Comerge AG which is located in Zurich.
-
 ## Projects
 * [BitBar dadjokes plugin](https://www.simonpeier.net/bitbar-dadjokes-plugin/) - A BitBar plugin which tells you random jokes
 
