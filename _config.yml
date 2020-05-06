@@ -1,6 +1,6 @@
 title:  "Simon Peier"
-description: "My name is Simon Peier and I am a swiss software engineer in apprentice. I am currently working at Comerge AG which is located in Zurich."
+description:  "My name is Simon Peier and I am a swiss software engineer in apprentice. I am currently working at Comerge AG which is located in Zurich."
 theme:  jekyll-theme-slate
-
 github:
-  is_project_page: false
+    repository_url: https://github.com/simonpeier
+    is_project_page: false
