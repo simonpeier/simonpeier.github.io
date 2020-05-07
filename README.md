@@ -11,7 +11,7 @@ I have basic knowledge in this languages:
 * SQL
 * HTML and CSS (if you consider those as languages 😉)
 
-I now how to use the following Tools and Technologies:
+I know how to use the following Tools and Technologies:
 * Spring boot
 * Bash
 * Git
