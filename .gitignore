@@ -1,0 +1,12 @@
+### Java ###
+out/
+target/
+
+### Intelij ###
+.idea/*
+*.iws
+*.iml
+*.ipr
+
+### Mac ###
+.DS_Store
