@@ -1,5 +1,5 @@
 ## Projects
-* [xbar dadjokes plugin](https://www.simonpeier.net/xbar-dadjokes-plugin/) - A BitBar plugin which tells you random jokes
+* [xbar dadjokes plugin](https://www.simonpeier.net/xbar-dadjokes-plugin/) - A xbar plugin which tells you random jokes
 
 ## Skills
 I am fluent in the following languages:
