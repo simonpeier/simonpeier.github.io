@@ -1,0 +1,132 @@
+/*
+STYLEGUIDE:
+
+The default font-family is: Roboto, sans-serif
+The font for titles is:     Roboto, sans-serif
+The font for links is:      Roboto, sans-serif
+
+TODO:  anpassen
+The default color is the default comerge color: #057379
+The link color is the comerge-red:              #FB274B
+
+To add a margin at the end of a section add the class ".margin-bottom-big". It will add a margin of 3vh, to format the page nicely
+*/
+
+body {
+    transition: opacity ease-out 0.25s;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/*img.logo-default {*/
+/*    max-width: 300px;*/
+/*}*/
+
+/*img.logo-big {*/
+/*    width: 100%;*/
+/*}*/
+
+/*img.cmrg-logo {*/
+/*    content: url("../img/comerge_logo.png");*/
+/*}*/
+
+/*img.cmrg-icon {*/
+/*    content: url("../img/comerge_icon.png");*/
+/*}*/
+
+/*textarea {*/
+/*    resize: none;*/
+/*}*/
+a {
+    /*color: #FB274B;*/
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+.top {
+    min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 50%;
+    background-color: white;
+    padding: 3%;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+
+.margin-bottom-big {
+    margin-bottom: 3vh;
+}
+
+/*.flex-wrapper {*/
+/*    display: flex;*/
+/*}*/
+
+/*.flex-space-between {*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.flex-center {*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.flex-end {*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+/*.small-width {*/
+/*    width: 40%;*/
+/*}*/
+
+/*.full-width {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.icon {*/
+/*    display: none;*/
+/*}*/
+
+.error-page-wrapper {
+    margin: auto;
+    padding: 5%;
+    width: auto;
+    position: relative;
+    max-width: 500px;
+}
+
+span.error-code-description {
+    /*color: #777;*/
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+
+    .title {
+        font-size: 175%;
+    }
+
+    /*.logo {*/
+    /*    display: none;*/
+    /*}*/
+    /*.icon {*/
+    /*    display: block;*/
+    /*    max-width: 10vw;*/
+    /*    top: 2vh;*/
+    /*    right: 10vw;*/
+    /*    position: absolute;*/
+    /*}*/
+}
