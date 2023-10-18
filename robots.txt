@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.simonpeier.ch/sitemap.xml
