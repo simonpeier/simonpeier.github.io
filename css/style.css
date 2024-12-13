@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-a::before {
+a span::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -64,13 +64,21 @@ a::before {
     transition: transform .3s ease-in-out;
 }
 
-a:hover::before {
+a:hover span::before {
     transform-origin: left;
     transform: scaleX(1);
 }
 
-a:hover {
+a:hover span {
     color: #ffffff;
+}
+
+a svg path {
+    transition: fill 0.3s ease;
+}
+
+a svg:hover path {
+    fill: #ffffff;
 }
 
 .margin-bottom {
@@ -92,4 +100,8 @@ a:hover {
 
 .text-align-right {
     text-align: right;
+}
+
+.link-icon {
+    margin-right: 1.5rem;
 }
