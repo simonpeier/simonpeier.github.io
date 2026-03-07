@@ -1,7 +1,24 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #05445E;
     color: #D4F1F4;
     font-size: 1.6rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > .row:last-child {
+    margin-top: auto;
 }
 
 .header {
@@ -10,7 +27,8 @@ body {
 }
 
 .footer {
-    margin-top: 5%;
+    margin-top: 0;
+    padding: 4rem 0 2rem;
     font-size: 1.3rem;
 }
 
